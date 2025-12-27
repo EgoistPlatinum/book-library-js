@@ -2,10 +2,11 @@
   "name": "book-library",
   "version": "1.0.0",
   "description": "Pet project",
-  "main": "index.js",
+  "main": "app.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup"
+    "build": "rollup -c --watch"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,9 @@
     "eslint": "^9.39.2",
     "globals": "^16.5.0",
     "rollup": "^4.54.0"
+  },
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "rollup-plugin-import-css": "^4.1.2"
   }
 }

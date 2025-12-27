@@ -1,3 +1,2 @@
 'use strict'
-
-function app() {}
+import './app.css'
