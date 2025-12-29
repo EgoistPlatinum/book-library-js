@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server",
     "build": "rollup -c --watch",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
@@ -31,6 +32,7 @@
   },
   "dependencies": {
     "@rollup/plugin-node-resolve": "^16.0.3",
+    "live-server": "^1.2.2",
     "rollup-plugin-import-css": "^4.1.2"
   }
 }
